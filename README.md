@@ -110,6 +110,7 @@ git clone https://github.com/your-username/ecommerce-data-pipeline.git
 Load customers and orders tables
 Build dashboard
 ```
+```
 📁 Project Structure
 ecommerce-data-pipeline/
 │
