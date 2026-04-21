@@ -98,3 +98,46 @@ Built interactive dashboard including:
 ### Step 1: Clone Repository
 ```bash
 git clone https://github.com/your-username/ecommerce-data-pipeline.git
+```
+Step 2: Setup MySQL Database
+Create database: ecommerce
+Run SQL scripts from /sql folder
+Step 3: Run Python ETL Script
+python load_orders.py
+Step 4: Open Power BI
+Connect to MySQL database
+Load customers and orders tables
+Build dashboard
+```
+📁 Project Structure
+ecommerce-data-pipeline/
+│
+├── data/
+│   └── dataset files (or Kaggle link)
+│
+├── python/
+│   └── load_orders.py
+│
+├── sql/
+│   ├── create_tables.sql
+│   ├── load_data.sql
+│   └── analysis_queries.sql
+│
+├── dashboard/
+│   └── dashboard_screenshot.png
+│
+└── README.md
+```
+💡 Future Improvements
+Automate ETL pipeline using Airflow
+Add API-based real-time ingestion
+Deploy dashboard online
+Add machine learning for sales prediction
+👨‍💻 Author
+
+Anindita Ghosh
+B.Tech IT (2022–2026)
+Aspiring Data Engineer | Data Analyst | ML Enthusiast
+
+LinkedIn: https://www.linkedin.com/in/AninditaGhosh/
+GitHub: https://github.com/Anindita531
